@@ -13,7 +13,6 @@ for (int i = 0; i < array.Length; i++)
 
 Console.WriteLine($"[{string.Join(", ", array)}]");
 
-
 int Difference = 0;
 for (int i = 0; i < array.Length; i++)
 {
