@@ -14,13 +14,13 @@ for (int i = 0; i < array.Length; i++)
 Console.WriteLine($"[{string.Join(", ", array)}]");
 
 
-int OddIndSum = 0;
+int Difference = 0;
 for (int i = 0; i < array.Length; i++)
 {
     if (i % 2 != 0)
     {
-        OddIndSum += array[i];
+        Difference += array[i];
     }
 }
-Console.WriteLine($"Сумма элементов, находящихся на нечетных позициях -> {OddIndSum}");
+Console.WriteLine($"Сумма элементов, находящихся на нечетных позициях -> {Difference}");
 Console.WriteLine();
